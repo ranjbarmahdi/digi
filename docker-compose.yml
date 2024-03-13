@@ -1,0 +1,198 @@
+version: '3.7'
+
+services:
+  digi-app-1:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5011:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-2:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5012:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-3:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5013:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-4:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5014:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-5:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5015:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-6:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5016:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-7:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5017:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-8:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5018:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-9:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5019:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-10:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5020:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-11:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5021:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-12:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5022:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-13:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5023:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-14:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5024:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-15:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5025:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+  digi-app-16:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "5026:4010"
+    volumes:
+      - ./digiKala:/usr/src/app/digiKala
+    networks:
+      - digi_custom_network
+
+networks:
+  digi_custom_network:
+    external: true
