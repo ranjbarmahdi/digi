@@ -22,5 +22,6 @@ COPY . .
 # Expose port 3020 for your Node.js application
 EXPOSE 4010
 
+
 # Change the CMD to run your desired Node.js script
 CMD ["node","app.js"]
