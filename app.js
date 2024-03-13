@@ -178,9 +178,9 @@ async function main() {
           if (!fs.existsSync(IMAGES_DIR)) { fs.mkdirSync(IMAGES_DIR); }
 
           // Lunch Browser
-          console.log("Before create browser");
+   
           browser = await puppeteer.launch({
-               headless: false, // Set to true for headless mode, false for non-headless
+               headless: true, // Set to true for headless mode, false for non-headless
                executablePath:
                     process.env.NODE_ENV === "production"
                          ? process.env.PUPPETEER_EXECUTABLE_PATH
