@@ -125,7 +125,7 @@ async function scrapSingleProduct(page, productURL, imagesDIR, documentsDir, ins
           await page.goto(productURL, { timeout:180000 });
   
 
-          await delay(7000);
+          await delay(5000);
 
           const html = await page.content();
           const $ = await cheerio.load(html);
@@ -220,7 +220,7 @@ async function main() {
           console.log("End");
           await page.close();
           await browser.close();
-          await delay(3000);
+          await delay(5000);
      }
 }
 
